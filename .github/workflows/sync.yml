@@ -5,7 +5,7 @@ on:
     branches: [ main ]
   workflow_dispatch:
   schedule:
-    - cron: '58 13 * * *'
+    - cron: '58 13 * * 5'
 
 jobs:
   build:
