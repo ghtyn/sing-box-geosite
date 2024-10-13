@@ -1,4 +1,3 @@
-https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
 https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
 https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt
 https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt
