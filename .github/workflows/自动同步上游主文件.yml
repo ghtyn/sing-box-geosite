@@ -1,0 +1,26 @@
+name: Sync Specific File
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'sing-box-geosite/main.py' # 替换为你的文件路径
+
+jobs:
+  sync-file:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        ref: main
+
+    - name: Sync file from upstream
+      run: |
+        git remote add upstream https://github.com/Toperlock/sing-box-geosite.git
+        git fetch upstream
+        git checkout upstream/main -- path/to/your/file.ext
+        git commit -m "Sync specific file from upstream" path/to/your/file.ext
+        git push origin main
