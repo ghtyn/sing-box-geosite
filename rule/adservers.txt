@@ -9,6 +9,10 @@
 !
 !
 !
+||ogaku.site^
+||waaz.wjebboljobvaj.top^
+||hakurei.cdnbo.org^
+||nkdccsiwixvzj.world^
 ||organicowner.com^
 ||woeful-trash.pro^
 ||dullequivalent.com^
@@ -696,8 +700,6 @@
 !+ PLATFORM(ios, ext_safari)
 .fwmrm.net^
 !+ NOT_OPTIMIZED
-||embed.sendtonews.com^$third-party
-!+ NOT_OPTIMIZED
 ||o333o.com^
 !+ NOT_OPTIMIZED
 ||dianomi.com^$third-party
@@ -835,6 +837,9 @@
 !
 ! Adocean : adocean.pl disguised advertising networks
 !#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/adocean.txt
+!
+! Ad Plus : stat-rock.com disguised advertising networks
+!#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/ad-plus.txt
 !
 ! Ad-Shield : ad-shield.cc disguised advertising networks
 !#include https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/ads/ad-shield.txt
